@@ -6,7 +6,7 @@ spring:
   password: root
  jpa:
   hibernate:
-   naming.implicit-stategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+   naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
    naming.physical-strategy : org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 eureka:
   client:
